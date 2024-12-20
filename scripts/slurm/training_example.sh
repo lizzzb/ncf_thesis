@@ -3,11 +3,11 @@
 #SBATCH --time=5:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --partition=clara
-#SBATCH --gres=gpu:v100:1
-#SBATCH --mem=24G
+#SBATCH --partition=paula
+#SBATCH --gres=gpu:a30:1
+#SBATCH --mem=12G
 #SBATCH --cpus-per-task=4
-#SBATCH -o /home/sc.uni-leipzig.de/<uni_login>/logs/%x.out-%j
+#SBATCH -o /home/sc.uni-leipzig.de/gp51ucex/logs/%x.out-%j
 
 source .venv/bin/activate
 
