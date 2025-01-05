@@ -26,4 +26,4 @@ def main(x1: int, x2: int) -> None:
 
 
 if __name__ == "__main__":  # runs only if this file was invoked from terminal
-    main(x1=3, x2=4)
+    main(x1=6, x2=4)
